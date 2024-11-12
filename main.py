@@ -10,7 +10,7 @@ model = Model("model")
 rec = KaldiRecognizer(model, 16000)
 
 p = pyaudio.PyAudio()
-stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, frames_per_buffer=8000)
+stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, frames_per_buffer=8000, input=True)
 stream.start_stream()
 
 while True:

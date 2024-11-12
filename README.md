@@ -5,6 +5,6 @@ Foco:
     Rápido e expanssível.
 
 Tecnologías:
-    Reconhecimento de voz. (google)
+    Reconhecimento de voz. (google para reconhecimento online, vosk para reconhecimento offline)
     Síntese de voz.
     Algum tipo de ia.
